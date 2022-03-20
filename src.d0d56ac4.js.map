@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["btn","document","querySelector","onclick","window","print"],"mappings":";AACA,IAAIA,EAAMC,SAASC,cAAc,cACjCF,EAAIG,QAAU,KAAMC,OAAOC","file":"src.d0d56ac4.js","sourceRoot":"../src","sourcesContent":["// import './sass/main.scss';\nlet btn = document.querySelector('.btn-print');\nbtn.onclick = () => window.print();\n"]}
