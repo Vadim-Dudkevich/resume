@@ -1,0 +1,21 @@
+.header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 45px;
+  border: 5px solid var(--white-text-color);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 0.5s;
+  user-select: none;
+  filter: grayscale(95%);
+}
+
+.header img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.15);
+  transition: 0.5s;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+}

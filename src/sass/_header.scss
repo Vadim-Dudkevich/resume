@@ -1,0 +1,36 @@
+.print-area .header {
+  border-radius: 5px 5px 0 0;
+  padding-top: 80px;
+  width: 100%;
+  height: 150px;
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header-text {
+  position: absolute;
+  top: 30px;
+  left: 250px;
+  color: var(--first-text-color);
+  width: 60%;
+  margin-left: auto;
+  text-align: center;
+  // align-items: center;
+  // justify-content: center;
+
+  & h1 {
+    font-size: 45px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+  }
+
+  & p {
+    // font-family: Nunito;
+    font-size: 20px;
+    line-height: 1.1.7;
+    letter-spacing: 0.03em;
+  }
+}

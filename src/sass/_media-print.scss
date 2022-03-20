@@ -1,0 +1,9 @@
+@media print {
+  body * {
+    // background-color: #fff;
+    visibility: hidden;
+  }
+  .print-area * {
+    visibility: visible;
+  }
+}
